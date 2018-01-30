@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="icon" type="image/png" href="./images/icon.png" sizes="32x32">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+            <div class="brand-container"><a href="index.html"><img src="./images/logo.png" alt="logo" style="width: 40px;"></a></div>
+            <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <li><a href="index.html" id="menu-link">HOME</a></li>
+                        <li><a href="index.html#about" id="menu-link">ABOUT</a></li>
+                        <li><a href="index.html#portfolio" id="menu-link">WORK</a></li>
+                        <li><a href="index.html#contact" id="menu-link">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER BACKGROUND -->
+    <div id="header-background">
+        <div class="global-container">
+            <div class="jumbotron">
+                <div class="header-text" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+                    <h1>NOVA <span> EEKEN</span></h1>
+                    <h2>Full Stack JavaScript Developer</h2></div>
+                <div class="header-buttons" data-scroll="toggle(.fromRightIn, .fromRightOut)"><a class="button button-transparent right-margin" href="#portfolio">Portfolio</a><a class="button button-colored" href="#contact">Neem contact op</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SELLING POINTS / EXPERTISE -->
+    <div id="selling-points">
+        <div class="global-container">
+            <div class="flex">
+                <div class="item selling-point"><img src="./images/selling-points1.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
+                    <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Web Development</h3></div>
+                <div class="item selling-point"><img src="./images/selling-points2.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
+                    <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">Back-end Integration</h3></div>
+                <div class="item selling-point"><img src="./images/selling-points3.png" data-scroll="toggle(.fromTopIn, .fromTopOut) once">
+                    <h3 data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">User Experience</h3></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT ME SECTION -->
+    <div id="about">
+        <div class="global-container">
+            <div class="about-wrapper">
+                <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">OVER MIJ</h1>
+                <br>
+                <div class="flex">
+                    <div class="item c1">
+                        <h4>Ik ben een beginnende full stack JavaScript developer met een achtergrond in UX / UI design.</h4></div>
+                    <div class="item c2">
+                        <p>Ik ben opzoek naar een plek waar ik iets kan bijdragen, kan leren en kan groeien. Ik heb een liefde voor JavaScript en niets geeft me een grotere kick dan wanneer ik een probleem heb opgelost met code. Als het niet moeilijk is, vind ik het niet leuk.</p>Language-wise voel ik me het meest thuis bij Node.js/ Express, maar ik wil nog veel meer leren. Van leren wordt blij en daarom pak ik dingen snel op. Innovatie geeft me energie. Daarnaast ben ik een </div>
+                    <div class="item c3">
+                        <p>natuurlijke spreker en neem ik graag initiatief. Ik kan razend enthousiast zijn over dingen die ik belangrijk vind en steek mensen daar snel mee aan. In mijn browser staan altijd 34 tabbladen tegelijkertijd open maar ik weet precies wat waar staat. En hoewel ik (nog) geen ster ben in tafeltennis, kun je wel me ontzettend blij maken met een stevige bootcamp-sessie in het park of een lekkere koffie verkeerd.</p>
+                    </div>
+                    <div class="item c4"></div>
+                    <div class="item c5">
+                        <h4>Back-End</h4>
+                        <ul class="skill-list">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>BCrypt</li>
+                            <li>Databases</li>
+                            <li>SQL</li>
+                            <li>PostgreSQL</li>
+                            <li>Sequelize</li>
+                            <li>REST</li>
+                            <li>Git</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                    <div class="item c6">
+                        <h4>Front-End</h4>
+                        <ul class="skill-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Pug</li>
+                            <li>JavaScript ES6</li>
+                            <li>jQuery</li>
+                            <li>AJAX</li>
+                            <li>Bootstrap</li>
+                            <li>Materialize</li>
+                            <li>Sketch</li>
+                            <li>Adobe Illustrator</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="global-container">
+            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">PORTFOLIO</h1>
+            <div class="portfolio-wrapper flexChild columnParent">
+                <div class="flexChild one zoomframe"><a href="watetenwe.html"><img class="img-responsive" src="./images/banner1.png" alt="Wat Eten We banner"></a></div>
+                <div class="flexChild rowParent">
+                    <div class="flexChild two zoomframe"><a href="blog-foodz.html"><img class="img-responsive" src="./images/banner2.png" alt="foodz banner"></a></div>
+                    <div class="flexChild columnParent">
+                        <div class="flexChild three zoomframe"><a href="emoji-analysis.html"><img class="img-responsive" src="./images/banner3.png" alt="emoji analysis banner"></a></div>
+                        <div class="flexChild four zoomframe"><a href="tightasses.html"><img class="img-responsive" src="./images/banner4.png" alt="tightasses banner"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JOBHUNT ALERT -->
+    <div id="alert">
+        <div class="global-container">
+            <div class="alert-wrapper">
+                <h2>Ik ben opzoek naar een vaste positie als JavaScript / Node.js developer.</h2>
+                <br>
+                <a href="mailto:info@novaeeken.com">
+                    <button class="button-transparent">Hire me</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div id="referenties">
+        <div class="global-container">
+            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)">REFERENTIES</h1>
+            <div class="flex">
+                <div class="item" style="color: black;">
+                    <div class="testimonial-wrapper"><a href="https://www.linkedin.com/in/jeroen-benjamins-18b7864/"><img class="testimonial-bg" src="./images/testimonial1.png" alt="testimonial"></a>
+                        <div class="testimonial-text">
+                            <h3>dr. Jeroen Benjamins</h3>
+                            <h4> <i>Universitair docent</i><br><i>@Universiteit Utrecht</i></h4>
+                            <br>
+                            <p>"Ik heb het plezier gehad Nova te mogen begeleiden tijdens haar masterscriptie, waar zij onderzoek deed naar de schaalbaarheid van UX onderzoeksmethoden. Maar veel begeleiding was niet nodig: als Nova iets aanpakt, dan doet ze dat grondig, gedegen en goed. Met haar zelfstandige, intelligente en kritische aanpak is geen probleem te groot."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="color: black;">
+                    <div class="testimonial-wrapper"><a href="https://www.linkedin.com/in/lloyd-chambrier-b9396870/"><img class="testimonial-bg" src="./images/testimonial2.png" alt="testimonial"></a>
+                        <div class="testimonial-text">
+                            <h3>Lloyd Chambrier</h3>
+                            <h4><i>Docent</i><br><i>@NY Code + Design Academy</i></h4>
+                            <br>
+                            <p>"From my experience, Nova’s ability to learn, code and deliver functional products are all remarkable. She has a natural drive to solve problems and I have seen first hand that she won't stop working on something until a bug has been fixed or a feature has been improved. I would say that overall Nova is definitely one of the best students I've had and I would strongly recommend her for any position."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="color: black;">
+                    <div class="testimonial-wrapper"><a href="#"><img class="testimonial-bg" src="./images/testimonial3.png" alt="testimonial"></a>
+                        <div class="testimonial-text">
+                            <h3>Jasper Volkers</h3>
+                            <h4> <i>Customer Succes Manager</i><br><i>@Contentoo</i></h4>
+                            <br>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consequuntur magni, omnis autem, vitae, harum eius fuga rem temporibus ullam voluptatum eligendi vel enim blanditiis officiis delectus explicabo maiores tempora suscipit aperiam similique eos repudiandae? A quod officia doloremque perferen."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME SECTION -->
+    <div id="contact">
+        <div class="global-container">
+            <div class="contact-wrapper">
+                <h2>Laten we iets speciaals creeren.</h2>
+                <p>Of een kopje koffie drinken, dat kan natuurlijk ook.</p>
+                <h3><a href="mailto:info@novaeeken.com">info@novaeeken.com</a></h3>
+                <br>
+                <div class="contact-icons"><a href="https://www.linkedin.com/in/novaeeken"><i class="fa fa-linkedin"></i></a><a href="https://github.com/novaeeken"><i class="fa fa-github"></i></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div id="footer">
+        <div class="global-container">
+            <div class="footer-wrapper">
+                <div class="flex">
+                    <div class="footer-item-big" id="footer-col1">
+                        <p>Dit is de persoonlijke portfolio van <strong> NOVA EEKEN. </strong> Ik ben een beginnende full stack developer met een achtergrond in UX / UI design. Ik heb een liefde voor JavaScript en niets geeft me een grotere kick dan wanneer ik een probleem heb opgelost met code. Meer weten? Je kunt me ook vinden op:</p>
+                        <br>
+                        <div class="contact-icons"><a href="https://www.linkedin.com/in/novaeeken"><i class="fa fa-linkedin"></i></a><a href="https://github.com/novaeeken"><i class="fa fa-github"></i></a><a href="mailto:info@novaeeken.com"><i class="fa fa-envelope-o"></i></a></div>
+                        <br>
+                        <p>Nova Eeken &copy; 2018</p>
+                    </div>
+                    <div class="footer-item-small">
+                        <p><b> PORTFOLIO </b></p>
+                        <br>
+                        <ul>
+		                  	<li><a href="watetenwe.html">Wat eten We</a></li>
+		                  	<li><a href="blog-foodz.html">Blogging platform</a></li>
+		                  	<li><a href="emoji-analysis.html">Emoji Analysis</a></li>
+		                  	<li><a href="tightasses.html">Tightasses</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item-small">
+                        <p><b> NAVIGEER </b></p>
+                        <br>
+                        <ul>
+							<li><a href="index.html#about">Over mij</a></li>
+                  			<li><a href="index.html#portfolio">Portfolio</a></li>
+                  			<li><a href="index.html#selling-points">Expertise</a></li>
+                  			<li><a href="index.html#referenties">Referenties</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/smoothscroll.js"></script>
+<script src="./js/ScrollTrigger.js"></script>
+<!-- <script src="./js/fadein.js"></script> -->
+<script src="./js/main.js"></script>
+
+</html>

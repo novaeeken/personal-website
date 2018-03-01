@@ -16,6 +16,12 @@ h1 {
 	font-size: 5vw;
 }
 
+a {
+	font-family: 'Open Sans', sans-serif;
+	color: #7f7eff;
+	font-weight: 200;
+}
+
 .global-container {
 	max-width: 1300px;
 	margin: 0 auto;
@@ -96,7 +102,7 @@ h1 {
 
 .jumbotron {
 	position: relative;
-	left: -2%;
+	left: 22%;
 	top: 300px;
 	width: 50%;
 	text-align: right;
@@ -105,12 +111,13 @@ h1 {
 
 .profile-pic {
 	position: relative;
-	left: 55%;
-	top: -180px;
+	right: -55%;
+	top: 28px;
 }
 
 .profile-pic img {
-	width: 600px;
+	max-width: 300px;
+	width: 100%;
 }
 
 /* ---------------------------------------------------------------------------
@@ -162,11 +169,19 @@ h1 {
 .about-wrapper {
 	padding-top: 5%;
 	padding-bottom: 5%;
+	align-content: center;
 }
 
 .about-wrapper h1 {
 	text-align: center;
 	padding: 30px;
+}
+
+.about-pic {
+	padding-top: 30px;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
 }
 
 .skill-list {
@@ -250,7 +265,8 @@ h1 {
 #portfolio h1 {
 	color: #4D4D4D;
 	text-align: center;
-	padding: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .portfolio-wrapper {
@@ -396,7 +412,8 @@ h1 {
 #referenties h1 {
 	color: #4D4D4D;
 	text-align: center;
-	padding: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .testimonial-bg {
@@ -631,6 +648,10 @@ h1 {
 	color: #4D4D4D;	
 }
 
+.tightasses-last {
+	margin-bottom: -60px;
+}
+
 .mobile .intro {
 	margin-bottom: 70px;
 }
@@ -778,17 +799,21 @@ h1 {
 	}
 
 	.contact-wrapper {
-		/*border: 1px solid black;*/
 		width: 95%;
 		margin: 0 auto;
 		padding-top: 70%;
 	}
 
 	.contact-wrapper h2 {
-		font-size: 1.4em;
+		font-size: 1.2em;
+	}
+
+	.contact-wrapper h3 {
+		font-size: 16px;
 	}
 
 	.contact-wrapper p {
+		font-size: 0.9em;
 		padding-bottom: 10px;
 	}
 
@@ -886,6 +911,16 @@ h1 {
 
 	/*OTHER*/
 
+	.contact-wrapper {
+		width: 72%;
+		margin: 0 auto;
+		padding-top: 40%;
+	}
+
+	.contact-wrapper h3 {
+		font-size: 16px;
+	}
+
 	.summary-item-right {
 		margin: 0 auto;
 	}
@@ -974,6 +1009,12 @@ h1 {
 
 	/*OTHER*/
 
+	.contact-wrapper {
+		width: 58%;
+		margin: 0 auto;
+		padding-top: 40%;
+	}
+
 	.summary-item-right {
 		margin: 0 auto;
 	}
@@ -1008,6 +1049,11 @@ h1 {
 	}
 
 	/*OTHER*/
+
+	.contact-wrapper {
+		width: 60%;
+		margin: 0 auto;
+	}
 
 	.summary-item-right {
 		margin: 0 auto;

@@ -1,8 +1,8 @@
 # Personal portfolio website
 
-I'm a beginning fullstack web developer with a background in UX/UI design. Therefore I wanted to create a place where I could showcase my projects (which are already on GitHub) in a visual way. You can find this project online at:
+I'm a frontend web developer with a background in UX/UI design. In 2017 I created my first website to showcase my projects in a visual way. However, in the mean time I've learned a lot. So for the updated version, checkout:
 
-[www.novaeeken.com](https://www.novaeeken.com)
+[my new portfolio](https://github.com/novaeeken/portfolio) on github or online at [www.novaeeken.com](https://www.novaeeken.com/)
 
 ## Libraries & Technologies
 - HTML5
@@ -10,4 +10,3 @@ I'm a beginning fullstack web developer with a background in UX/UI design. There
 - JavaScript
 - jQuery
 - ScrollTrigger.js
-- 
